@@ -116,7 +116,7 @@
 #define IMLIB_ENABLE_DATAMATRICES
 
 // Enable find_barcodes() (42 KB)
-#define IMLIB_ENABLE_BARCODES
+// #define IMLIB_ENABLE_BARCODES
 
 // Enable find_features() and built-in Haar cascades. (75KBs)
 #define IMLIB_ENABLE_FEATURES
@@ -130,7 +130,7 @@
 
 // Enable Tensor Flow
 #if !defined(CUBEAI)
-// #define IMLIB_ENABLE_TF (IMLIB_TF_DEFAULT)
+#define IMLIB_ENABLE_TF (IMLIB_TF_DEFAULT)
 #endif
 
 // Enable FAST (20+ KBs).
