@@ -113,15 +113,15 @@
 // #define IMLIB_ENABLE_HIGH_RES_APRILTAGS
 
 // Enable find_datamatrices() (26 KB)
-#define IMLIB_ENABLE_DATAMATRICES
+// #define IMLIB_ENABLE_DATAMATRICES
 
 // Enable find_barcodes() (42 KB)
 // #define IMLIB_ENABLE_BARCODES
 
 // Enable find_features() and built-in Haar cascades. (75KBs)
-#define IMLIB_ENABLE_FEATURES
-#define IMLIB_ENABLE_FEATURES_BUILTIN_FACE_CASCADE
-#define IMLIB_ENABLE_FEATURES_BUILTIN_EYES_CASCADE
+// #define IMLIB_ENABLE_FEATURES
+// #define IMLIB_ENABLE_FEATURES_BUILTIN_FACE_CASCADE
+// #define IMLIB_ENABLE_FEATURES_BUILTIN_EYES_CASCADE
 
 // Enable CMSIS NN
 // #if !defined(CUBEAI)
@@ -137,13 +137,13 @@
 //#define IMLIB_ENABLE_FAST
 
 // Enable find_template()
-#define IMLIB_FIND_TEMPLATE
+// #define IMLIB_FIND_TEMPLATE
 
 // Enable find_lbp()
 //#define IMLIB_ENABLE_FIND_LBP
 
 // Enable find_keypoints()
-#define IMLIB_ENABLE_FIND_KEYPOINTS
+// #define IMLIB_ENABLE_FIND_KEYPOINTS
 
 // Enable load, save and match descriptor
 #define IMLIB_ENABLE_DESCRIPTOR
